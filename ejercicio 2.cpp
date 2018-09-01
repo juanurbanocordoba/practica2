@@ -7,7 +7,7 @@
 #include <ctime>
 #include<stdbool.h>
 using namespace std;
-//esta funcion extarera una letra aleatoria de un arreglo va de A-Z
+
 int main()
 { srand(time(NULL));
     int A=0;
@@ -40,7 +40,8 @@ int main()
    char letras_para_sacar[]= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
    char letra_obtenida;
    int contador_de_letras=1;
-   while (contador_de_letras<=20){
+ //este ciclo saca una letra aleatoria, mira que letra es y la cuenta y la agrega a el nuevo arreglo de 200 letras
+   while (contador_de_letras<=200){
     int random= rand()%26;
     letra_obtenida=*(letras_para_sacar+random);
     nuevo_arreglo_de_letras[contador_de_letras]=letra_obtenida;
