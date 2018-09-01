@@ -7,7 +7,7 @@
 #include <ctime>
 #include<stdbool.h>
 using namespace std;
-
+//esta funcion genera un areglo aleatorio de 200 letras y las cuenta
 int main()
 { srand(time(NULL));
     int A=0;
