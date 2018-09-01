@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//esta funcion convierte las letras minusculas cadena de caracteres a mayusculas
 int main()
 {
     string palabra_con_minusculas;
