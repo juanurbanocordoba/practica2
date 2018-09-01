@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//esta funcion determina si una matriz cuadrada es un cubo magico
 int main()
 {
     int tamano_de_la_matriz,comparador_de_valores=0,acumulador_de_valores=0;
